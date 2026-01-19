@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="contain">hello</p>
+    <!-- <p class="container">SEC A</p>
+    <p class="container">SEC B</p> -->
+    <p class="container">SEC C</p>
+    <!-- <p class="container">SEC C</p> -->
+    <script>
+        //let para=document.getElementById("contain")
+        // let para=document.getElementsByClassName("container")//return html collection and we are using array list (html collection)real me array list provide nhi kerta 
+        // let para=document.getElementsByTagName("p")
+        // para[0].innerText="SEC A2"
+        // para[0].innerText="<p>hi</p>"//it will show with text
+        // console.log(para[0].innerText)
+        // para[1].innerHTML="<p>hi</p>"// it will show with text + tags
+        // console.log(para[1].innerHTML)     
+        //para.innerText="hi"
+        // let anu=document.querySelector(".container")
+        // anu.innerText="Sec A2"
+        let anu=document.querySelectorAll(".container")
+        anu[0].innerText="Sec A2"
+    </script>
+</body>
+</html>
